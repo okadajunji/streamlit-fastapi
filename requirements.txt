@@ -2,3 +2,4 @@ fastapi
 streamlit
 pandas
 Pillow
+uvicorn
