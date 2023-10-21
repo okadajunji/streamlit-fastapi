@@ -5,7 +5,8 @@ from PIL import Image
 import io
 
 # FastAPIのエンドポイント
-url = 'http://localhost:8000'
+# url = 'http://localhost:8000' # ローカル環境のFastAPIのデフォルト
+url = 'https://streamlit-fastapi.onrender.com' # FastAPIのデプロイURL
 
 # レイアウトとタイトルの設定
 st.set_page_config(layout="centered")
