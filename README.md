@@ -1,0 +1,2 @@
+# streamlit-fastapi
+StreamlitとFastAPIでCSVと画像ファイルを扱う最小限のコードです。
