@@ -2,11 +2,12 @@ import streamlit as st
 import requests
 import pandas as pd
 from PIL import Image
-import io
+import io, os
 
 # FastAPIのエンドポイント
-# url = 'http://localhost:8000' # ローカル環境のFastAPIのデフォルト
-url = 'https://streamlit-fastapi.onrender.com' # FastAPIのデプロイURL
+# Streamlit Share の環境変数へ Render のデプロイURLを設定する
+# 環境変数に RENDER_URL が設定されていない場合はデフォルトのURLを設定する
+url = os.environ.get("RENDER_URL") or 'http://localhost:8000'
 
 # レイアウトとタイトルの設定
 st.set_page_config(layout="centered")
