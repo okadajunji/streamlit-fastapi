@@ -1,5 +1,6 @@
 fastapi
 streamlit
+python-multipart
 pandas
 Pillow
 uvicorn
