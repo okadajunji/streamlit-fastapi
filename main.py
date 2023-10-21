@@ -7,6 +7,11 @@ import io
 app = FastAPI()
 
 
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
+
+
 @app.post("/process-csv/")
 async def process_csv(file: UploadFile = File(...)):
     # ファイル内容をDataFrameに読み込む
