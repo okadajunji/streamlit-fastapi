@@ -31,6 +31,7 @@ streamlit run streamlit_app.py
 # デプロイ
 
 ## FastAPI側をRenderへのデプロイ手順
+Render URL: https://dashboard.render.com/
 
 ①『New＋』をクリックします。<br>
 ②『Web Service』をクリックします。<br>
@@ -61,6 +62,7 @@ streamlit run streamlit_app.py
 https://github.com/okadajunji/streamlit-fastapi/blob/9ef24efd0d4da2e109f28c3242a60732967e89b9/main.py#L10-L13
 
 ## Streamlit側をStreamlitShareへのデプロイ手順
+Streamlit Share URL: https://share.streamlit.io/
 
 ①『New app』をクリックします。<br>
 ![step1](images/streamlitshare_01.png)
