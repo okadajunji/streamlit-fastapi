@@ -2,7 +2,8 @@ import streamlit as st
 import requests
 import pandas as pd
 from PIL import Image
-import io, os
+import io
+import os
 
 # FastAPIのエンドポイント
 # Streamlit Share の環境変数へ Render のデプロイURLを設定する
