@@ -70,7 +70,6 @@ https://github.com/okadajunji/streamlit-fastapi/blob/9ef24efd0d4da2e109f28c3242a
 ⑤『Secrets』に以下の内容を入力します。<br>
 　（`[your-app-name]`の部分は『FastAPI側をRenderへのデプロイ手順』の⑨を参照下さい）
 ```
-[general]
 RENDER_URL = "https://[your-app-name].onrender.com/"
 ```
 
