@@ -1,5 +1,6 @@
 # 概要
-StreamlitとFastAPIでCSVファイルと画像ファイルを扱う最小限のコードです。
+StreamlitとFastAPIでCSVファイルと画像ファイルを扱う最小限のコードです。<br>
+アプリURL: https://stream-it-fastapi.streamlit.app/
 
 ## StreamlitとFastAPIの機能の切り分けの考え方
 ・主な機能はFastAPIで実装しましょう。<br>
