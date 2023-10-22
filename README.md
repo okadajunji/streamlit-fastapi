@@ -9,7 +9,7 @@ StreamlitとFastAPIでCSVファイルと画像ファイルを扱う最小限の�
 ・今回の場合では、ユーザーからのファイルの取得や処理結果の表示をStreamlitで実装しています。
 
 ## 必要なライブラリ
-`requirements.txt`に記載しています。
+<a href="https://github.com/okadajunji/streamlit-fastapi/blob/main/requirements.txt">`requirements.txt`</a>に記載しています。
 
 以下のコマンドでインストールすることができます。
 
@@ -57,7 +57,7 @@ streamlit run streamlit_app.py
 `{"message":"Hello World"}`と表示されていれば成功！<br>
 ![step7](images/render_07.png)
 
-これは以下の部分が対応している。<br>
+これは以下の部分が対応している<br>
 https://github.com/okadajunji/streamlit-fastapi/blob/9ef24efd0d4da2e109f28c3242a60732967e89b9/main.py#L10-L13
 
 ## Streamlit側をStreamlitShareへデプロイする
@@ -74,6 +74,10 @@ https://github.com/okadajunji/streamlit-fastapi/blob/9ef24efd0d4da2e109f28c3242a
 [general]
 RENDER_URL = "https://[your-app-name].onrender.com/"
 ```
+
+これは以下の部分が対応している<br>
+https://github.com/okadajunji/streamlit-fastapi/blob/4ad85f1200e0b3277f92a8776dc9a4f3d7dc5fb6/streamlit_app.py#L7-L10
+
 ⑥『Save』をクリック<br>
 ⑦『Deploy!』をクリック<br>
 ![step2](images/streamlitshare_02.png)
