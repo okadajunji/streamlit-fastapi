@@ -15,7 +15,7 @@ st.set_page_config(layout="centered")
 st.title("Streamlit & FastAPI")
 
 # CSVファイルの処理
-st.header("CSVファイル処理(先頭5行の抽出)")
+st.header("CSVファイル処理（先頭5行の抽出）")
 uploaded_file = st.file_uploader("CSVファイルをアップロードしてください", type=["csv"])
 
 if uploaded_file is not None:
@@ -30,7 +30,7 @@ if uploaded_file is not None:
 
 
 # 画像ファイルの処理
-st.header("画像ファイル処理(グレースケール)")
+st.header("画像ファイル処理（グレースケール）")
 uploaded_file = st.file_uploader("画像ファイルをアップロードしてください", type=["png", "jpg", "jpeg"])
 
 if uploaded_file is not None:
