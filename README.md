@@ -2,11 +2,10 @@
 StreamlitとFastAPIでCSVファイルと画像ファイルを扱う最小限のコードです。
 
 ## StreamlitとFastAPIの機能の切り分けの考え方
-・主な機能はすべてFastAPIで実装し、FastAPIで出来ない部分をStreamlitで実装する。
-
-・FastAPIで出来ない部分とは、ユーザーとのデータのやり取りの部分です。
-
-・今回の場合では、ユーザーからのファイルの取得や処理結果の表示をStreamlitで実装しています。
+・主な機能はFastAPIで実装しましょう。<br>
+・FastAPIで出来ない部分をStreamlitで実装しましょう。<br>
+・今回の場合では、ユーザーからのファイルの取得や処理結果の表示のtreamlitで実装しています。<br>
+※Streamlitで全て実装することも可能ですが、このようにを切り分けることでフロントエンド側をNext.jsなどのモダンな環境で作成することが可能になります。
 
 ## 必要なライブラリ
 <a href="https://github.com/okadajunji/streamlit-fastapi/blob/main/requirements.txt">`requirements.txt`</a>に記載しています。
