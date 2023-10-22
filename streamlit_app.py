@@ -13,7 +13,6 @@ url = os.environ.get("RENDER_URL") or 'http://localhost:8000'
 # レイアウトとタイトルの設定
 st.set_page_config(layout="centered")
 st.title("Streamlit & FastAPI")
-st.write(f"url: {url}")
 
 # CSVファイルの処理
 st.header("CSVファイル処理(先頭5行の抽出)")
