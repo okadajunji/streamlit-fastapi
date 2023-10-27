@@ -10,10 +10,11 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost",
-        "https://streamlit-fastapi.onrender.com",
-        "https://fastapi-frontend-nextjs.onrender.com",
-        ],  # 特定のオリジンのみを許可
+        "*",
+        # "http://localhost",
+        # "https://streamlit-fastapi.onrender.com",
+        # "https://fastapi-frontend-nextjs.onrender.com",
+        ],  # 特定のオリジンのみを許可するようにしてください！
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
