@@ -73,7 +73,7 @@ Streamlit Share URL: https://share.streamlit.io/
 ⑤『Secrets』に以下の内容を入力します。<br>
 　（`[your-app-name]`の部分は『FastAPI側をRenderへのデプロイ手順』の⑨を参照下さい）
 ```
-RENDER_URL = "https://[your-app-name].onrender.com/"
+RENDER_URL = "https://[your-app-name].onrender.com"
 ```
 
 これは以下の部分が対応しています。<br>
